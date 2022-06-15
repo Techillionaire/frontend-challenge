@@ -9,8 +9,8 @@ import { BiNotepad } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <div className="hero bg-light p-4">
-        <div className="container d-flex justify-content-between">
+    <div className="hero bg-light p-2">
+        <div className="container-fluid d-flex justify-content-between">
             <div>
                 <i className='fs-3 me-2'>
                     <FcAbout />
