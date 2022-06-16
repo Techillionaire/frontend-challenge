@@ -44,12 +44,17 @@
     background-color: rgb(235, 216, 219);
 }
 
-@media (max-width: 300px) {
-    .chat{
-        display: none;
+@media only screen and (min-device-width: 300px) and (max-device-width: 560px) {
+    #chatparent{
+        display: none !important;
+        /*background-color: aqua;*/
     }
-
-    .dashboard{
-        width: 100%;
-    }
+    /* insert styles here */
 }
+/*@media only screen and (device-width: 320px) and (orientation: portrait) {
+    .chat{
+        display: none !important;
+    }
+    /* insert styles here */
+/*}
+*/

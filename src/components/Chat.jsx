@@ -7,7 +7,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Chat = () => {
   return (
-    <div className="chat bg-light">
+    <div className="chat bg-light ">
         <div className="top bg-light">
             <div className='d-flex  align-middle justify-content-between ' style={{ width: '100%', height: '40px', margin: '0 15px', cursor: 'pointer'}}>
                         <div className='d-flex'>
