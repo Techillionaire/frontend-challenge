@@ -11,7 +11,7 @@ import { BsThreeDots } from "react-icons/bs";
 import CircularProgress from '@mui/material/CircularProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-
+import {NavLink} from 'react-router-dom'
 
 
 
@@ -19,18 +19,17 @@ const Dashboard = () => {
 
     
   return (
-    <div className='row container-fluid'>
+    <div className='dashboard row container-fluid'>
         <div className="left col-9 p-4  bg-info bg-opacity-10">
             <div className="top d-flex justify-content-between">
                 <div className="dashleft ">
                     {button.map((b) => (
-                        <button key={b.id} type="button" class="dashboardLeft mx-3 position-relative" >
+                        <a key={b.id} type="button" class="dashboardLeft mx-3 position-relative" >
                             {b.name}
                             <span class="dashboardbadge position-absolute top-0 start-100 translate-middle badge rounded-pill">
                                 {b.range}
-                                <span class="visually-hidden">unread messages</span>
                             </span>
-                        </button>
+                        </a>
                     ))}
                     
                 </div>

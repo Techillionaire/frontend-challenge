@@ -2,7 +2,23 @@
 .dashboardLeft{
     color: grey;
     background-color: transparent;
-    border: none;
+    text-decoration: none;
+}
+
+.dashboardLeft:hover{
+    color: orange;
+}
+
+.dashboardbadge{
+    background-color: orange;
+}
+
+.dashboardbadge:hover{
+    background-color: orange;
+}
+
+.dashboardbadge:active{
+    color: orange;
 }
 
 .dashboardLeft:active{
@@ -26,4 +42,14 @@
 
 .coverTwo{
     background-color: rgb(235, 216, 219);
+}
+
+@media (max-width: 300px) {
+    .chat{
+        display: none;
+    }
+
+    .dashboard{
+        width: 100%;
+    }
 }
