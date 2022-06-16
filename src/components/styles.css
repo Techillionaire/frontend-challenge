@@ -49,6 +49,10 @@
         display: none !important;
         /*background-color: aqua;*/
     }
+
+    .dashleft{
+        display: none !important;
+    }
     /* insert styles here */
 }
 /*@media only screen and (device-width: 320px) and (orientation: portrait) {
