@@ -1,0 +1,21 @@
+
+.dashboardLeft{
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+
+.dashboardLeft:active{
+    color: orange !important;
+}
+
+.dashboardbadge{
+    background-color: grey;
+    color: white;
+}
+
+
+
+.cardName{
+    font-size: 12px;
+}

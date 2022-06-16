@@ -1,44 +1,62 @@
 export const Card = [
     {
       id: 2,
-      name: "card1",
-      desc: '50',
+      name: "Hotel Management App",
+      desc: 'Theresa Webb',
       link: 'aaaaaa',
+      temp: 'high',
+      value: '50',
+      percent: '50'
     },
   
     {
         id: 2,
-        name: "card2",
-        desc: '20',
+        name: "Remote Car IoT",
+        desc: 'Dianne Russell',
         link: 'aaaaaa',
+        temp: 'low',
+        value: '25',
+        percent: '25',
       },
   
       {
         id: 3,
-        name: "card3",
-        desc: '30',
+        name: "Analytics Dashbord",
+        desc: 'Courtney Henry',
         link: 'aaaaaa',
+        temp: 'medium',
+        value: '75',
+        percent: '75',
       },
 
       {
         id: 4,
-        name: "card3",
-        desc: '30',
+        name: "POS Saas for Retailer",
+        desc: 'Jane Cooper',
         link: 'aaaaaa',
+        temp: 'low',
+        value: '25',
+        percent: '25',
       },
 
       {
         id: 5,
-        name: "card3",
-        desc: '30',
+        name: "Dell Computer monitor",
+        desc: 'Cody Fisher',
         link: 'aaaaaa',
+        temp: 'high',
+        value: '85',
+        percent: '85',
       },
 
       {
         id: 6,
-        name: "card3",
-        desc: '30',
+        name: "E-Tickets for Balsics EO",
+        desc: 'Robert Fox',
         link: 'aaaaaa',
+        temp: 'low',
+        value: '50',
+        percent: '50',
       },
   ];
   
