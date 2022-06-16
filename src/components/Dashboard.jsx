@@ -57,7 +57,7 @@ const Dashboard = () => {
 
             <div className="bottom d-flex flex-wrap justify-content-center">
                 {Card.map((c) => (
-                     <div class="card mx-3 my-3 pt-3 px-3" style={{ width: '17rem'}} key={c.id}>
+                     <div class="card mx-3 my-3 pt-3 px-3" style={{ minWidth: '18rem'}} key={c.id}>
                         <div className="d-flex justify-content-between">
                             <div>
                                 {/* <CircularProgress variant="determinate" value={25} /> */}
