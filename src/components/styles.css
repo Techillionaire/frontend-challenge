@@ -53,6 +53,10 @@
     .dashleft{
         display: none !important;
     }
+
+    .bell{
+        display: none !important;
+    }
     /* insert styles here */
 }
 /*@media only screen and (device-width: 320px) and (orientation: portrait) {

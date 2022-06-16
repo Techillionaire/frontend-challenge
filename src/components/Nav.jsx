@@ -33,7 +33,7 @@ const Nav = () => {
                     <li class="nav-item">
                         <a class="nav-link" href="#">Message</a>
                     </li>
-                    <i class='ms-4 me-2' style={{fontSize: '18px', cursor: 'pointer'}}>
+                    <i class='ms-4 me-2 bell' style={{fontSize: '18px', cursor: 'pointer'}}>
                         <FiBell />
                     </i>
 
