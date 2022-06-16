@@ -20,6 +20,7 @@ const Dashboard = () => {
     
   return (
     <div className='dashboard row container-fluid'>
+        
         <div className="left col-lg-9 p-4 col-sm-12 col-md-12 bg-info bg-opacity-10">
             <div className="top d-flex justify-content-between">
                 <div className="dashleft ">
